@@ -1,5 +1,5 @@
 "use client"
-import React, { useState} from 'react';
+import React, {useState} from 'react';
 import styles from "@/styles/StylesHeader.module.css"
 import Link from "next/link";
 import svg1 from "@/public/Vector.svg"
@@ -9,13 +9,24 @@ import svg4 from "@/public/Vector(5=4).svg"
 import svg5 from "@/public/Vector88.svg"
 import svg6 from "@/public/Vectore.svg"
 import svg7 from "@/public/Framess.svg"
+import imgpro from "@/public/avatar.jpg"
 import Image from "next/image";
 import {IoMdClose} from "react-icons/io";
+import {useSession} from "next-auth/react";
+import {signOut} from "next-auth/react";
+
+import {FaSignInAlt} from "react-icons/fa";
+import {MdOutlineAccountBox} from "react-icons/md";
 
 
 function Header(props) {
     const [none, setNone] = useState(true)
     const [show, setShow] = useState(false)
+    const [dashboardShow, setDashboardShow] = useState(false)
+
+
+    const {status, data, update} = useSession()
+    console.log({status, data, update})
 
     const startClose = () => {
         setNone(false)
@@ -24,6 +35,12 @@ function Header(props) {
     const showNavbar = () => {
         setShow(!show)
     }
+
+    const startProfile = () =>{
+        setDashboardShow(!dashboardShow)
+    }
+
+
     return (
         <header>
             {
@@ -61,7 +78,7 @@ function Header(props) {
                         <button
                             className={styles.Nav_close_btn}
                             onClick={showNavbar}>
-                            <IoMdClose />
+                            <IoMdClose/>
                         </button>
 
                     </ul>
@@ -78,7 +95,30 @@ function Header(props) {
                         <Link href=""> <Image src={svg2} alt="icon" width={24} height={24} priority={true}/></Link>
                     </div>
                     <div className={styles.signin}>
-                        <Link href="/signup"> <Image src={svg3} alt="icon" width={24} height={24} priority={true}/></Link>
+                        {data ? (
+                            <div className={styles.LoginProfile} onClick={startProfile}>
+                                <Image src={imgpro} alt="icon" width={27} height={27} priority={true}/>
+
+                                     <div className={dashboardShow ?  styles.dashboard  : styles.dashboard_off}>
+                                        <ul>
+                                            <li>
+                                                <Link href="/dashboard">
+                                                    حساب کاربری
+                                                </Link>
+                                                <MdOutlineAccountBox />
+                                            </li>
+                                            <li onClick={signOut}>
+                                                خروج
+                                                <FaSignInAlt />
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+                            </div>
+                        ) : (<Link href="/signup"> <Image src={svg3} alt="icon" width={24} height={24}
+                                                          priority={true}/></Link>)}
+
                     </div>
                 </div>
 

@@ -3,8 +3,7 @@ import BannerImg from "@/module/BannerImg";
 
 
 
- function Homepage(props) {
-
+function Homepage(props) {
     return (
         <>
             <BannerImg/>
