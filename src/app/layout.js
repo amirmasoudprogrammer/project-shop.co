@@ -1,6 +1,7 @@
-import Layout from "@/Layout/Layout";
 import "./globals.css"
-import NextAuthProvider from "@/providers/NextAuthProvider";
+import NextAuthProvider from "@/src/providers/NextAuthProvider";
+import Layout from "@/src/components/layout/Layout";
+
 
 export const metadata = {
     title: "Create Next App",

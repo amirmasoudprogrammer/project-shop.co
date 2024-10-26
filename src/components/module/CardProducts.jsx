@@ -2,7 +2,7 @@ import React from 'react';
 import Link from "next/link";
 import svg1 from "public/Frame 40.png"
 import Image from "next/image";
-import styles from "@/styles/StylesCardProducts.module.css"
+import styles from "@/src/styles/StylesCardProducts.module.css"
 import {Text} from "../../helper/Help";
 
 

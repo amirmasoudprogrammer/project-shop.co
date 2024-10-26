@@ -1,11 +1,11 @@
 "use client"
 import React, {useEffect, useState} from 'react';
-import Title from "@/module/Title";
+import Title from "@/src/components/module/Title";
 import styles from "src/styles/stylesCategoriesHomePage.module.css"
 import {Container} from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import CardProducts from "@/module/CardProducts";
-import Loading from "@/module/Loading";
+import CardProducts from "@/src/components/module/CardProducts";
+import Loading from "@/src/components/module/Loading";
 import Link from "next/link";
 
 

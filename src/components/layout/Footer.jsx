@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container} from "@mui/material";
-import styles from "@/styles/StylesFooter.module.css"
+import styles from "@/src/styles/StylesFooter.module.css"
 import Image from "next/image";
 import Grid from '@mui/material/Grid2';
 import svg1 from "@/public/Vectorgmail.svg";
