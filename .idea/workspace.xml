@@ -16,10 +16,14 @@
       <change afterPath="$PROJECT_DIR$/src/styles/StylesCardProducts.module.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/stylesCategoriesHomePage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(auth)/signin/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/signin/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(auth)/signup/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/signup/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/template/Homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/Homepage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/SigninPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SigninPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/template/SignupPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SignupPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helper/Animated Numbers.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Signup.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Signup.module.css" afterDir="false" />
@@ -120,7 +124,7 @@
       <workItem from="1729758840583" duration="6847000" />
       <workItem from="1729845884430" duration="7980000" />
       <workItem from="1729926195342" duration="15168000" />
-      <workItem from="1729956971321" duration="8416000" />
+      <workItem from="1729956971321" duration="9000000" />
     </task>
     <servers />
   </component>

@@ -1,8 +1,9 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials"
-import User from "@/models/User"
-import {verifyPassword} from "@/utils/auth";
-import connectDB from "@/utils/connectDB";
+import User from "src/models/User"
+import connectDB from "@/src/utils/connectDB";
+import {verifyPassword} from "@/src/utils/auth";
+
 
 
 export const authOptions = {
