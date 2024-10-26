@@ -1,5 +1,5 @@
 import React from 'react';
-import BannerImg from "@/module/BannerImg";
+import BannerImg from "src/components/module/BannerImg";
 import CategoriesHomePage from "@/template/CategoriesHomePage";
 
 

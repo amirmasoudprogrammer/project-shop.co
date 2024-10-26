@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from "@/Layout/Header";
-import Footer from "@/Layout/Footer";
+import Header from "src/components/Layout/Header";
+import Footer from "src/components/Layout/Footer";
 
 function Layout({children}) {
     const style = { minHeight: "700px" };

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/public/Frame 40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Frame 61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Frame 62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Frame 63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Frame 64.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/module/Loading.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/module/Title.jsx" afterDir="false" />
@@ -14,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(auth)/signup/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/signup/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/template/Homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/Homepage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/template/SignupPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SignupPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helper/Animated Numbers.js" beforeDir="false" />
@@ -53,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/PROGRMMING/NEXT/real-state-main/src/Components/template/SignupPage.jsx",
+    "last_opened_file_path": "D:/PROGRMMING/NEXT/shop.com/public",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +81,34 @@
       <recent name="D:\PROGRMMING\NEXT\shop.com\src\app\api\auth\signup" />
     </key>
   </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,7 +120,7 @@
       <workItem from="1729758840583" duration="6847000" />
       <workItem from="1729845884430" duration="7980000" />
       <workItem from="1729926195342" duration="15168000" />
-      <workItem from="1729956971321" duration="6666000" />
+      <workItem from="1729956971321" duration="8416000" />
     </task>
     <servers />
   </component>

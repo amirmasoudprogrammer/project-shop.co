@@ -1,8 +1,8 @@
 import React from 'react';
-import SigninPage from "@/template/SigninPage";
+import SigninPage from "@/src/components/template/SigninPage";
 import {getServerSession} from "next-auth";
-import {authOptions} from "@/api/auth/[...nextauth]/route";
 import {redirect} from "next/navigation";
+import {authOptions} from "@/src/app/api/auth/[...nextauth]/route";
 
 async function Page(props) {
     const session = await getServerSession(authOptions)
