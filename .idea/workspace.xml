@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Group.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Vector (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/prada-logo-1 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/zara-logo-1 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/Animated Numbers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Banner.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(auth)/signin/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/signin/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(auth)/signup/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/signup/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/Homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/Homepage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Rectangle 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Vectore.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Vectore.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/abutas/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/module/BannerImg.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/BannerImg.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -43,6 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/PROGRMMING/NEXT/shop.com/public",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -73,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1729758837448</updated>
       <workItem from="1729758840583" duration="6847000" />
-      <workItem from="1729845884430" duration="7220000" />
+      <workItem from="1729845884430" duration="7980000" />
+      <workItem from="1729926195342" duration="14825000" />
     </task>
     <servers />
   </component>
