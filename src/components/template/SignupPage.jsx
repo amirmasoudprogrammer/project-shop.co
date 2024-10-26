@@ -19,6 +19,10 @@ function SignupPage(props) {
 
     const startSignup = async (e) => {
         e.preventDefault()
+        if (password !== rePassword) {
+            toast.error("رمزو تکرار رمز یکسان نیست")
+            return
+        }
         const res = await fetch("/api/auth/signup", {
             method: "POST",
             body: JSON.stringify({email, password}),

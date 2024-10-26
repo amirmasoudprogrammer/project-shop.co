@@ -1,0 +1,28 @@
+.Categories {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.View {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto;
+    width: 218px;
+    height: 52px;
+    padding: 16px 54px 16px 54px;
+    border-radius: 62px ;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .Categories {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+}
