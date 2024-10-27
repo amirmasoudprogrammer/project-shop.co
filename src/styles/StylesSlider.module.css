@@ -39,10 +39,17 @@
     margin-right: 15px;
 }
 
-.Cards{
+.Cards {
     display: flex;
     margin-top: 50px;
     width: auto;
     align-items: center;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Cards {
+        justify-content: center;
+        align-items: center;
+    }
 }

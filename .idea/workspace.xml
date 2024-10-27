@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Frame 60rr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arrow-down-bold 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arrow-down-bold 2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/module/CardComment.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/template/PageStyleDress.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/template/SliderUser.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/DataSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/StyleDress.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/StylesSlider.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/Homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/Homepage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesSlider.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesSlider.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +103,7 @@
       <workItem from="1729926195342" duration="15168000" />
       <workItem from="1729956971321" duration="10957000" />
       <workItem from="1729973835789" duration="823000" />
-      <workItem from="1730012691619" duration="14727000" />
+      <workItem from="1730012691619" duration="15934000" />
     </task>
     <servers />
   </component>
