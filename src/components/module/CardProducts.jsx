@@ -8,12 +8,13 @@ import {Text} from "@/src/helper/Help";
 
 function CardProducts({data}) {
     const {title, price, images} = data
+
     return (
         <Link className={styles.Card} href={`/Categories/${data.id}`}>
-            <img src={images[0]} alt="images"/>
+            <Image src={images} width={280} height={280} alt="images" priority={true}/>
             <span>{Text(title)}</span>
             <div className={styles.icons}>
-                <Image src={svg1} alt="icon"/>
+                <Image src={svg1} alt="icon" width={113} height={19} priority={true}/>
             </div>
             <p>${price}</p>
         </Link>

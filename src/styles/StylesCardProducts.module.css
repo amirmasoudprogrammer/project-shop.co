@@ -6,8 +6,6 @@
 }
 
 .Card img {
-    width: 280px;
-    height: 280px;
     border-radius: 5px;
 }
 
@@ -23,10 +21,6 @@
     margin-top: 10px;
 }
 
-.Card .icons img {
-    width: 150px;
-    height: 19px;
-}
 
 .Card p {
     margin-top: 10px;

@@ -1,4 +1,4 @@
-/*--headertop--*/
+
 
 .headerTop {
     display: flex;
@@ -38,7 +38,7 @@
 }
 
 
-/*------NavBarMenu-----*/
+
 
 .NavBarMenu {
     display: flex;
@@ -216,10 +216,10 @@
 
 }
 
-/*responsive*/
 
-@media only screen and (max-width: 1024px) {
-    /*--headertop--*/
+
+@media (max-width: 480px) {
+
     .headerTop .headerText span {
         width: 100%;
         display: flex;

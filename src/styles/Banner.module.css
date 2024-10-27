@@ -2,10 +2,6 @@
     display: flex;
 }
 
-.Container .img {
-
-}
-
 .Container .TextBanner {
     position: absolute;
     top: 23%;
@@ -109,7 +105,7 @@
     height: 122px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 480px) {
     .Container {
         display: flex;
         flex-direction: column;

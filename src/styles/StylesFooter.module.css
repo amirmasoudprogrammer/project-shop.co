@@ -176,7 +176,7 @@
     margin-right: 100px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 480px) {
     .footerUp {
         flex-direction: column;
         width: 335px;

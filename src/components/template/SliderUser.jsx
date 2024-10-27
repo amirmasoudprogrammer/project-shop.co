@@ -39,7 +39,7 @@ function SliderUser(props) {
 
                         {
                             DataSlider.map((i) => (
-                                <CardComment data={i}/>
+                                <CardComment data={i} key={i.id}/>
                             ))
                         }
 
