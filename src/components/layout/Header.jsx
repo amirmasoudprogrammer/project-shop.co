@@ -7,7 +7,7 @@ import svg2 from "@/public/Vector (5).svg"
 import svg3 from "@/public/Frame.svg"
 import svg4 from "@/public/Vector(5=4).svg"
 import svg5 from "@/public/Vector88.svg"
-import svg6 from "@/public/Vectore.svg"
+import svg6 from "@/public/Frameicon.svg"
 import svg7 from "@/public/Framess.svg"
 import imgpro from "@/public/avatar.jpg"
 import Image from "next/image";
@@ -61,7 +61,7 @@ function Header(props) {
 
             <div className={styles.NavBarMenu}>
                 <div className={styles.responsive}>
-                    <Image src={svg6} onClick={showNavbar} alt="icon" width={18} height={14} priority={true}/>
+                    <Image src={svg6} onClick={showNavbar} alt="icon" width={24} height={24} priority={true}/>
                 </div>
                 <nav className={styles.Nav}>
                     <div className={styles.LogoHeader}>
