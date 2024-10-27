@@ -127,6 +127,7 @@
         justify-content: center;
         width: 322px;
         margin: 8px auto;
+        padding-top: 20px;
 
     }
 
@@ -154,6 +155,7 @@
         height: 52px;
         padding: 16px 54px 16px 54px;
         border-radius: 62px;
+        margin-top: 20px;
     }
 
     .Container .TextBanner .Nambers {
@@ -184,6 +186,10 @@
 
     }
 
+    .Container .TextBanner .Nambers .ItemCardNamber .textItems {
+        width: auto;
+    }
+
     .Container .TextBanner .Nambers .ItemCardNamber .textItems span {
         font-size: 12px;
         font-weight: 400;
@@ -197,7 +203,8 @@
         width: 100%;
         height: 200px;
     }
-    .LogoBanner img{
+
+    .LogoBanner img {
         width: 80px;
         height: 100px;
         margin-top: 0;
