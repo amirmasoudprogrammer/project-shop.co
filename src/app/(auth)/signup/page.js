@@ -1,5 +1,5 @@
 import React from 'react';
-import SignupPage from "src/components/template/SignupPage";
+import SignupPage from "@/src/components/template/SignupPage";
 import {getServerSession} from "next-auth";
 import {authOptions} from "@/src/app/api/auth/[...nextauth]/route";
 import {redirect} from "next/navigation";

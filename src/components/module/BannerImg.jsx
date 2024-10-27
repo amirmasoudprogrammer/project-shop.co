@@ -2,7 +2,7 @@
 import React, {useEffect} from 'react';
 import imgbanner from "@/public/Rectangle 2.png"
 import Image from "next/image";
-import styles from "src/styles/Banner.module.css"
+import styles from "@/src/styles/Banner.module.css"
 import Link from "next/link";
 import CountUp from 'react-countup';
 import AOS from 'aos';

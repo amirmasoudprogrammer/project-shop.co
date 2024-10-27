@@ -1,6 +1,6 @@
 "use client"
 import React, {useState} from 'react';
-import styles from "/src/styles/StylesHeader.module.css"
+import styles from "@/src/styles/StylesHeader.module.css"
 import Link from "next/link";
 import svg1 from "@/public/Vector.svg"
 import svg2 from "@/public/Vector (5).svg"

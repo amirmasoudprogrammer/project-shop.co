@@ -1,6 +1,6 @@
 "use client"
 import React, {useState} from 'react';
-import styles from "src/styles/Signup.module.css";
+import styles from "@/src/styles/Signup.module.css";
 import Link from "next/link";
 import {toast, Toaster} from "sonner";
 import {useRouter} from "next/navigation";

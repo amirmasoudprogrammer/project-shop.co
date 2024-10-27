@@ -1,6 +1,6 @@
 import {NextResponse} from "next/server";
 import connectDB from "@/src/utils/connectDB";
-import User from "src/models/User"
+import User from "@/src/models/User"
 import {hashPassword} from "@/src/utils/auth";
 
 

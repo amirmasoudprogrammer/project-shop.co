@@ -2,8 +2,8 @@
 import React from 'react';
 import {Container} from "@mui/material";
 import styles from "@/src/styles/StylesSlider.module.css"
-import svg1 from "public/arrow-down-bold 1.svg"
-import svg2 from "public/arrow-down-bold 2.svg"
+import svg1 from "@/public/arrow-down-bold 1.svg"
+import svg2 from "@/public/arrow-down-bold 2.svg"
 import Image from "next/image";
 import DataSlider from "@/src/helper/DataSlider";
 import CardComment from "@/src/components/module/CardComment";

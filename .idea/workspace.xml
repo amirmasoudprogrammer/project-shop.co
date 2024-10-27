@@ -3,7 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/StylesSlider.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesSlider.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(auth)/signup/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/signup/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth/signup/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/signup/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/module/BannerImg.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/BannerImg.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/module/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/Title.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/Homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/Homepage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/SigninPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SigninPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/SignupPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SignupPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/SliderUser.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SliderUser.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +117,7 @@
       <workItem from="1729956971321" duration="10957000" />
       <workItem from="1729973835789" duration="823000" />
       <workItem from="1730012691619" duration="15934000" />
+      <workItem from="1730051576953" duration="1065000" />
     </task>
     <servers />
   </component>
