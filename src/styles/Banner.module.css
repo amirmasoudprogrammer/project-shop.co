@@ -192,7 +192,7 @@
 
     .LogoBanner {
         background-color: black;
-        width: 360px;
+        width: 100%;
         height: 200px;
     }
     .LogoBanner img{
