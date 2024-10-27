@@ -1,6 +1,6 @@
 "use client"
 import React, {useState} from 'react';
-import styles from "@/src/styles/StylesHeader.module.css"
+import styles from "/src/styles/StylesHeader.module.css"
 import Link from "next/link";
 import svg1 from "@/public/Vector.svg"
 import svg2 from "@/public/Vector (5).svg"
@@ -48,7 +48,7 @@ function Header(props) {
                         <div className={styles.headerText}>
 
                       <span>
-                    Sign up and get 20% off to your first order.<Link href="/SignUp"> Sign Up Now</Link>
+                    Sign up and get 20% off to your first order.<Link href="/signup"> Sign Up Now</Link>
                 </span>
 
                             <Image onClick={startClose} src={svg1} alt="icon" width={15} height={15} priority={true}/>

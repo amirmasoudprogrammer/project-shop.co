@@ -21,7 +21,7 @@ function CategoriesHomePage(props) {
             const res = await fetch("https://api.escuelajs.co/api/v1/products")
             const data = await res.json()
             setLoading(false)
-            const sliceData = data.slice(0, 4)
+            const sliceData = data.slice(1, 5)
             const sliceData2 = data.slice(4,8)
             setDataProduct2(sliceData2)
             setDataProduct(sliceData)

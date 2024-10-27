@@ -2,37 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Frame 40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Frame 61.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Frame 62.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Frame 63.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Frame 64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/module/Loading.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/module/Title.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/Help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/StyleTitle.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/StylesCardProducts.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/stylesCategoriesHomePage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Frame 60rr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/arrow-down-bold 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/arrow-down-bold 2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/module/CardComment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/template/PageStyleDress.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/template/SliderUser.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/DataSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/StyleDress.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/StylesSlider.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(auth)/signin/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/signin/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(auth)/signup/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/signup/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/api/auth/signup/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/signup/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/template/Homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/Homepage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/SigninPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SigninPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/SignupPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SignupPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/Animated Numbers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Signup.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Signup.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="com.haulmont.rcb.function_component" />
       </list>
     </option>
@@ -63,19 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/PROGRMMING/NEXT/shop.com/public",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PROGRMMING/NEXT/shop.com/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -130,7 +116,9 @@
       <workItem from="1729758840583" duration="6847000" />
       <workItem from="1729845884430" duration="7980000" />
       <workItem from="1729926195342" duration="15168000" />
-      <workItem from="1729956971321" duration="9829000" />
+      <workItem from="1729956971321" duration="10957000" />
+      <workItem from="1729973835789" duration="823000" />
+      <workItem from="1730012691619" duration="14727000" />
     </task>
     <servers />
   </component>

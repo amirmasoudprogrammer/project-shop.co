@@ -1,0 +1,48 @@
+.PageSlider {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.PageSlider {
+
+}
+
+.PageSlider .TitleAndButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.PageSlider .TitleAndButton span {
+    width: 654px;
+    height: 58px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+
+}
+
+.PageSlider .TitleAndButton .Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PageSlider .TitleAndButton .Buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.Cards{
+    display: flex;
+    margin-top: 50px;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+}
