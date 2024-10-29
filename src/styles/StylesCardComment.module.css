@@ -36,10 +36,10 @@
 @media (max-width: 480px) {
 
     .CardItem {
-        width:358px;
-        height: 186px;
+        width: 360px;
+        height: 207px;
         border: 1px solid rgba(0, 0, 0, 0.1);
-        border-radius: 20px ;
+        border-radius: 20px;
         margin-right: 10px;
 
     }
