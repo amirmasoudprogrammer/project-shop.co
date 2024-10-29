@@ -7,6 +7,52 @@
     margin: 20px;
 
 }
+
 .Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Title div {
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.Title p {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+@media (max-width: 480px) {
+
+    .CardItem {
+        width:358px;
+        height: 186px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 20px ;
+        margin-right: 10px;
+
+    }
+
+    .Title p {
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+
+
+    }
 
 }

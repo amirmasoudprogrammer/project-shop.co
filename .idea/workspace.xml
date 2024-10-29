@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/styles/Banner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Banner.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Frameffff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/UsFIvYs.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/axsyGpD.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/module/CardComment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/CardComment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/Homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/Homepage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/SliderUser.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SliderUser.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/Help.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/Help.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesCardProducts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesCardProducts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesSlider.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesSlider.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="com.haulmont.rcb.function_component" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -103,7 +118,9 @@
       <workItem from="1729956971321" duration="10957000" />
       <workItem from="1729973835789" duration="823000" />
       <workItem from="1730012691619" duration="15934000" />
-      <workItem from="1730051576953" duration="5702000" />
+      <workItem from="1730051576953" duration="6103000" />
+      <workItem from="1730126406804" duration="15405000" />
+      <workItem from="1730189013020" duration="4371000" />
     </task>
     <servers />
   </component>

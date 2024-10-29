@@ -1,5 +1,8 @@
 "use client"
 import React from 'react';
+
+import {Swiper, SwiperSlide} from 'swiper/react'
+
 import {Container} from "@mui/material";
 import styles from "@/src/styles/StylesSlider.module.css"
 import svg1 from "@/public/arrow-down-bold 1.svg"
@@ -7,17 +10,12 @@ import svg2 from "@/public/arrow-down-bold 2.svg"
 import Image from "next/image";
 import DataSlider from "@/src/helper/DataSlider";
 import CardComment from "@/src/components/module/CardComment";
+import {EffectCoverflow, Navigation} from "swiper";
 
+import 'swiper/css'
+import 'swiper/css/effect-coverflow'
 
 function SliderUser(props) {
-
-
-    const startButtomRight = () => {
-
-    }
-    const startButtomleft = () => {
-
-    }
 
 
     return (
@@ -26,24 +24,65 @@ function SliderUser(props) {
                 <div className={styles.TitleAndButton}>
                     <span>OUR HAPPY CUSTOMERS</span>
                     <div className={styles.Buttons}>
-                        <button onClick={startButtomRight}>
+                        <button className='swiper-button-next'>
                             <Image src={svg2} alt="icon" width={24} height={24} priority={true}/>
                         </button>
-                        <button onClick={startButtomleft}>
+                        <button className='swiper-button-prev'>
                             <Image src={svg1} alt="icon" width={24} height={24} priority={true}/>
                         </button>
                     </div>
                 </div>
 
-                    <div className={styles.Cards}>
+                <div className={styles.Cards}>
+                    <Swiper
+                        breakpoints={{
+                            360:{
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            480:{
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            640: {
+                                slidesPerView: 2.8,
+                                spaceBetween: 20,
+                            },
+
+                        }}
+                        grabCursor={true}
+                        centeredSlides={true}
+                        loop={true}
+                        slidesPerView={2.5}
+                        coverflowEffect={{
+                            rotate: 0,
+                            stretch: -75,
+                            depth: 250,
+                            modifier: 3.5,
+                            slideShadows: false,
+                        }}
+                        navigation={{
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                            clickable: true,
+                        }}
+
+                        modules={[EffectCoverflow, Navigation]}
+                    >
 
                         {
                             DataSlider.map((i) => (
-                                <CardComment data={i} key={i.id}/>
+
+                                <SwiperSlide key={i.id} className={styles.Cardslid} >
+                                    <CardComment data={i}/>
+                                </SwiperSlide>
+
                             ))
                         }
+                    </Swiper>
 
-                    </div>
+
+                </div>
 
 
             </div>

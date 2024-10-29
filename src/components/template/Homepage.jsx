@@ -5,6 +5,8 @@ import PageStyleDress from "@/src/components/template/PageStyleDress";
 import SliderUser from "@/src/components/template/SliderUser";
 
 
+
+
 function Homepage(props) {
     return (
         <>
@@ -12,6 +14,8 @@ function Homepage(props) {
             <CategoriesHomePage/>
             <PageStyleDress/>
             <SliderUser/>
+
+
 
 
         </>
