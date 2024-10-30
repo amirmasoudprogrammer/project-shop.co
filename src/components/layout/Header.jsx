@@ -17,6 +17,7 @@ import {signOut} from "next-auth/react";
 
 import {FaSignInAlt} from "react-icons/fa";
 import {MdOutlineAccountBox} from "react-icons/md";
+import {Container} from "@mui/material";
 
 
 function Header(props) {
@@ -58,7 +59,7 @@ function Header(props) {
                     </div>
                 ) : ""
             }
-
+<Container maxWidth="lg">
             <div className={styles.NavBarMenu}>
                 <div className={styles.responsive}>
                     <Image src={svg6} onClick={showNavbar} alt="icon" width={24} height={24} priority={true}/>
@@ -123,8 +124,9 @@ function Header(props) {
                 </div>
 
             </div>
-
+</Container>
         </header>
+
 
     )
         ;

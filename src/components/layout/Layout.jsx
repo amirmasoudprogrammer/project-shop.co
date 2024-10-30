@@ -4,7 +4,7 @@ import Footer from "@/src/components/layout/Footer";
 
 
 function Layout({children}) {
-    const style = { minHeight: "700px" };
+    const style = { minHeight: "900px" };
     return (
         <>
             <Header/>

@@ -25,11 +25,6 @@ function CategoriesHomePage(props) {
             const sliceData2 = data.slice(4,8)
             setDataProduct2(sliceData2)
             setDataProduct(sliceData)
-
-
-
-
-
         }
 
         dataApi()

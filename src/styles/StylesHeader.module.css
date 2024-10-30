@@ -1,5 +1,4 @@
 
-
 .headerTop {
     display: flex;
     align-items: center;
@@ -38,11 +37,9 @@
 }
 
 
-
-
 .NavBarMenu {
     display: flex;
-    width: 95%;
+    width: auto;
     justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -103,12 +100,13 @@
 
 .NavBarMenu .InputSearsh {
     padding: 12px 16px 12px 16px;
-    background: rgba(240, 240, 240, 1);;
-    width: 577px;
+    background: rgba(240, 240, 240, 1);
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 62px;
+    margin-right: 22px;
 }
 
 .NavBarMenu .InputSearsh input {
@@ -166,6 +164,7 @@
     justify-content: space-between;
     height: 50px;
 }
+
 .LoginProfile .dashboard_off ul li {
     cursor: pointer;
     display: flex;
@@ -174,6 +173,7 @@
     width: 80px;
     font-size: 12px;
 }
+
 .LoginProfile .dashboard {
     position: absolute;
     background-color: whitesmoke;
@@ -216,7 +216,6 @@
     color: black;
 
 }
-
 
 
 @media (max-width: 480px) {
