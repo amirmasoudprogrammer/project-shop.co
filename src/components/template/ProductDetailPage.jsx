@@ -85,9 +85,8 @@ function ProductDetailPage({data}) {
                                 <div className={styles.selectSize}>
                                     <div className={styles.TextSelectItem}>Choose Size</div>
                                     <div className={styles.ItemSelect}>
-                                        {size.map((i) => (
-                                            <div onClick={() => handlerSelectSize(i)} className={selectedSize === i ? styles.SelectColor :styles.Select}
-                                            >
+                                        {size.map((i,index) => (
+                                            <div key={index} onClick={() => handlerSelectSize(i)} className={selectedSize === i ? styles.SelectColor :styles.Select}>
                                                 <span>{i}</span>
                                             </div>))}
                                     </div>
