@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/Categories/[...CategoriesId]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Categories/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/template/ProductDetailPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/StylesProductDetailPage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" afterDir="false" />
-    </list>
+    <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +104,7 @@
       <workItem from="1730051576953" duration="6103000" />
       <workItem from="1730126406804" duration="15405000" />
       <workItem from="1730189013020" duration="15262000" />
-      <workItem from="1730276763686" duration="17636000" />
+      <workItem from="1730276763686" duration="18057000" />
     </task>
     <servers />
   </component>
