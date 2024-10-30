@@ -9,8 +9,6 @@ import {Text} from "@/src/helper/Help";
 function CardProducts({data}) {
     const {title, price, images } = data
 
-
-
     return (
         <Link className={styles.Card} href={`/Categories/${data.id}`}>
             <Image src={images[0]} width={280} height={280} alt="image" priority={true}/>
