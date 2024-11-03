@@ -2,33 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/6a54ab1a28d0da6862d5f2024ecca028.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/9dbb3546a0608aef2207d0105a645a89.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/FrameMnf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Frameyyyy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Vector 9999.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/VectorFilters.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/VectorPuls.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/dcbdbe3dd19317165e80cf8245d66ff7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/module/Popup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/DataComment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/Providers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/features/cart/cartSlice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/features/product/ProductSlice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Popup.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Categories/[...CategoriesId]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Categories/[...CategoriesId]/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/module/CardComment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/CardComment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/ProductDetailPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/ProductDetailPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/SignupPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SignupPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/Help.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/Help.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/StylesFooter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesFooter.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/StylesProductDetailPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesProductDetailPage.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +115,7 @@
       <workItem from="1730359446397" duration="9570000" />
       <workItem from="1730527307328" duration="14989000" />
       <workItem from="1730558401543" duration="11885000" />
-      <workItem from="1730646321343" duration="7094000" />
+      <workItem from="1730646321343" duration="7824000" />
     </task>
     <servers />
   </component>

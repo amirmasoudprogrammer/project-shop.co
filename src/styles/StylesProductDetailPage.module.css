@@ -486,7 +486,7 @@
     }
 
     .TextDetail {
-        height: 680px;
+        height: 610px;
     }
 
     .TextDetail .Text h2 {
@@ -532,6 +532,10 @@
 
     .Reviews{
         margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .Reviews .LinkItems {
