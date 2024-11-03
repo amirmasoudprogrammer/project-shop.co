@@ -1,5 +1,5 @@
 "use client"
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Toaster, toast} from 'sonner'
 import styles from "@/src/styles/Signup.module.css"
 import Link from "next/link";
@@ -14,7 +14,7 @@ function SignupPage(props) {
 
 
     const startLoginGoole = () => {
-      signIn();
+        signIn();
     }
 
     const startSignup = async (e) => {

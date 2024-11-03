@@ -6,12 +6,14 @@ import styles from "@/src/styles/StylesCardProducts.module.css"
 import {Text} from "@/src/helper/Help";
 
 
+
+
 function CardProducts({data}) {
-    const {title, price, images } = data
+    const {title, price, images} = data
 
     return (
         <Link className={styles.Card} href={`/Categories/${data.id}`}>
-            <Image src={images[0]} width={280} height={280} alt="image" priority={true}/>
+            <Image src={images[1]} width={280} height={280} alt="image" priority={true}/>
             <span>{Text(title)}</span>
             <div className={styles.icons}>
                 <Image src={svg1} alt="icon" width={113} height={19} priority={true}/>

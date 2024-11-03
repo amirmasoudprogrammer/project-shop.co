@@ -10,12 +10,13 @@ function Page({params: {CategoriesId}}) {
         const dataApi = async () => {
             const res = await fetch("https://api.escuelajs.co/api/v1/products")
             const data = await res.json()
-            const Datafilter = await data.find((product) => product.id === +CategoriesId)
-            setProductData(Datafilter)
+            const filter = await data.find((product) => product.id === +CategoriesId)
+            setProductData(filter)
         }
 
         dataApi()
     }, [])
+    console.log(productData)
     return (
         <ProductDetailPage data={productData}/>
     );

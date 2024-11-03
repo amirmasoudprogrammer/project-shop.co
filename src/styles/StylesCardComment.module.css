@@ -1,3 +1,12 @@
+.CardItemPost {
+    width: 520px;
+    height: 239.58px;
+    padding: 28px 32px 28px 32px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
 .CardItem {
     width: 400px;
     height: 239.58px;
@@ -5,7 +14,12 @@
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin: 20px;
+}
 
+.CardItemPost .itemC {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .Title {
@@ -33,7 +47,26 @@
 
 }
 
+.DatePost {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #00000099;
+    line-height: 22px;
+    text-align: left;
+
+}
+
 @media (max-width: 480px) {
+    .CardItemPost {
+        width:358px;
+        height:224.19px;
+
+        padding: 24px ;
+        gap: 332px;
+        border-radius: 20px;
+
+    }
 
     .CardItem {
         width: 360px;

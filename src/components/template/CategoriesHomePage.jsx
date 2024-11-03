@@ -7,38 +7,31 @@ import CardProducts from "@/src/components/module/CardProducts";
 import Loading from "@/src/components/module/Loading";
 import Link from "next/link";
 import Title from "@/src/components/module/Title";
+import {useDispatch, useSelector} from "react-redux";
+import {fetchProducts} from "@/src/redux/features/product/ProductSlice";
 
 
 function CategoriesHomePage(props) {
-    const [dataProduct, setDataProduct] = useState([])
-    const [dataProduct2, setDataProduct2] = useState([])
-    const [loading, setLoading] = useState(false);
+    const {Products , loading} = useSelector((store) => store.Products)
 
+    const dispatch = useDispatch()
 
     useEffect(() => {
-        const dataApi = async () => {
-            setLoading(true)
-            const res = await fetch("https://api.escuelajs.co/api/v1/products")
-            const data = await res.json()
-            setLoading(false)
-            const sliceData = data.slice(0, 4)
-            const sliceData2 = data.slice(4,8)
-            setDataProduct2(sliceData2)
-            setDataProduct(sliceData)
-        }
+        dispatch(fetchProducts())
+    },[])
 
-        dataApi()
-    }, [])
+
+
 
     return (
         <>
             <Container maxWidth="xl">
                 <Title name="NEW ARRIVALS"/>
                 <div className={styles.Categories}>
-                    {loading ? <Loading/> : dataProduct.map((item) => (
+                    {loading ? <Loading/> : Products.slice(0,4).map((item) => (
                         <Grid container key={item.id} spacing={5}>
                             <Grid size={{xl: 4, lg: 4, md: 12, sm: 12, xs: 12}} mt={5}>
-                                  <CardProducts data={item}/>
+                                <CardProducts data={item}/>
                             </Grid>
                         </Grid>
 
@@ -49,7 +42,7 @@ function CategoriesHomePage(props) {
                 </div>
                 <Title name="top selling"/>
                 <div className={styles.Categories}>
-                    {loading ? <Loading/> : dataProduct2.map((item) => (
+                    {loading ? <Loading/> : Products.slice(4,8).map((item) => (
                         <Grid container key={item.id} spacing={5}>
                             <Grid size={{xl: 4, lg: 4, md: 12, sm: 12, xs: 12}} mt={5}>
                                 <CardProducts data={item}/>

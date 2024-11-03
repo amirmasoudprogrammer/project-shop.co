@@ -1,6 +1,7 @@
 import "./globals.css"
 import NextAuthProvider from "@/src/providers/NextAuthProvider";
 import Layout from "@/src/components/layout/Layout";
+import Providers from "@/src/redux/Providers";
 
 
 export const metadata = {
@@ -14,7 +15,9 @@ export default function RootLayout({children}) {
         <body>
         <NextAuthProvider>
             <Layout>
+                <Providers>
                 {children}
+                </Providers>
             </Layout>
         </NextAuthProvider>
         </body>

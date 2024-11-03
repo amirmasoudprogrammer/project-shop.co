@@ -1,6 +1,12 @@
+.PageMain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
 .PageDetail {
     margin-top: 50px;
-
 }
 
 .PageDetail .Imges {
@@ -36,6 +42,7 @@
 .TextDetail {
     display: flex;
     flex-direction: column;
+    margin-top: -15px;
 
 }
 
@@ -43,12 +50,12 @@
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid #0000001A;
-    padding-bottom:19px;
+    padding-bottom: 19px;
 }
 
 .TextDetail .Text h2 {
     width: 510px;
-    height: 40px;
+    height: auto;
     font-size: 32px;
     font-weight: 700;
     line-height: 48px;
@@ -124,14 +131,14 @@
     align-items: flex-start;
     justify-content: space-between;
     width: 420px;
-    height: 46px;
+    height: auto;
     margin-top: 20px;
     flex-direction: column;
 
 }
 
 .selectSize .TextSelectItem {
-    color:  #00000099;
+    color: #00000099;
 }
 
 .selectSize .ItemSelect {
@@ -188,13 +195,268 @@
 
 }
 
-@media (max-width: 480px) {
+.AddButtomAndQuantity {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: auto;
+}
 
+.AddButtomAndQuantity .AddItem {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    padding: 16px 54px 16px 54px;
+    gap: 12px;
+    height: 52px;
+    border-radius: 62px;
+    background: #000000;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+
+.AddButtomAndQuantity .AddItem button {
+    color: #ece0e0
+}
+
+.AddButtomAndQuantity .Cardcheck {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+    height: 52px;
+    padding: 16px 20px 16px 20px;
+    border-radius: 62px;
+    background: #F0F0F0;
+    margin-right: 20px;
+}
+
+.AddButtomAndQuantity .Cardcheck button {
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+.Reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 80px;
+    height: auto;
+}
+
+.Reviews .LinkItems {
+    transition: all .2s linear;
+    border-bottom: 1px solid #0000001A;
+}
+
+.Reviews .LinkItems ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1150px;
+    text-align: center;
+}
+
+.Reviews .LinkItems ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-bottom: 1px solid #0000001A;
+    padding-bottom: 15px;
+    width: 414px;
+    transition: all .2s linear;
+}
+
+.Reviews .LinkItems ul li:nth-child(1) {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000099;
+}
+
+.Reviews .LinkItems ul li:nth-child(2) {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000099;
+}
+
+.Reviews .LinkItems ul li:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000099;
+}
+
+.Reviews .LinkItems ul li:nth-child(2):hover {
+    color: #000;
+}
+
+.Reviews .LinkItems ul li:nth-child(1):hover, .Reviews .LinkItems ul li:nth-child(3):hover {
+    color: #000;
+}
+
+.Reviews .LinkItems ul li:hover {
+    border-bottom: 1px solid #000000;
+}
+
+.Reviews .ItemsFilter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    margin-top: 32px;
+}
+
+.Reviews .ItemsFilter .textItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Reviews .ItemsFilter .textItem p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+
+}
+
+.Reviews .ItemsFilter .textItem span {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000099;
+
+}
+
+.Reviews .ItemsFilter .IconItem {
+    display: flex;
+    width: 354px;
+    height: 48px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Reviews .ItemsFilter .IconItem .icon {
+    width: 48px;
+    height: 48px;
+    padding: 16px 20px 16px 20px;
+    background: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 62px;
+
+
+}
+
+.Reviews .ItemsFilter .IconItem .textFilter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    height: 48px;
+    padding: 16px 20px 16px 20px;
+    border-radius: 62px;
+    background: #F0F0F0;
+
+
+}
+
+.Reviews .ItemsFilter .IconItem .textFilter span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+
+}
+
+.Reviews .ItemsFilter .IconItem .textFilter img {
+    margin-left: 21px;
+}
+
+.Reviews .ItemsFilter .IconItem .ButtomFilter {
+    width: 166px;
+    height: 48px;
+    padding: 16px 20px 16px 20px;
+    border-radius: 62px;
+    background: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.AllComment {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.AllComment .cardCom {
+    flex: 1 1 calc(50% - 50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.More_Reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    cursor: pointer;
+}
+.More_Reviews span{
+    padding: 16px 54px 16px 54px;
+
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+}
+.product .productItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 480px) {
+    .PageMain {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        justify-content: space-between;
+    }
 
     .PageDetail .Imges {
         align-items: center;
         display: flex;
         flex-direction: column-reverse;
+
     }
 
     .PageDetail .Imges .ItemIMG {
@@ -223,23 +485,21 @@
         margin: 10px;
     }
 
-
     .TextDetail {
-        height: 800px;
+        height: 680px;
     }
-
 
     .TextDetail .Text h2 {
         font-size: 24px;
         font-weight: 700;
-        line-height: 28px;
+        line-height: 1.5;
         text-align: left;
+        width: auto;
     }
 
     .TextDetail .Text .price {
         font-size: 32px;
         font-weight: 700;
-        line-height: 43.2px;
         text-align: left;
         margin-top: 10px;
 
@@ -252,11 +512,145 @@
         width: 328px;
         height: 65px;
     }
+
     .selectSize .ItemSelect {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-left: -20px;
+    }
+
+    .AddButtomAndQuantity .AddItem {
+        width: 180px;
+    }
+
+    .AddButtomAndQuantity .AddItem button {
+        width: 225px;
+        font-size: 17px;
+        padding: 0;
+    }
+
+    .Reviews{
+        margin-top: 0;
+    }
+
+    .Reviews .LinkItems {
+        border-bottom: 1px solid #0000001A;
+    }
+
+    .Reviews .LinkItems ul {
+        width: 330px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Reviews .LinkItems ul li {
+        width: auto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    .Reviews .LinkItems ul li:nth-child(1) {
+        width: auto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        color: #00000099;
+    }
+
+    .Reviews .LinkItems ul li:nth-child(2) {
+        width: auto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        color: #00000099;
+    }
+
+    .Reviews .LinkItems ul li:nth-child(3) {
+        width: auto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        color: #00000099;
+    }
+
+    .Reviews .ItemsFilter {
+        width: 332px;
+        margin-top: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Reviews .ItemsFilter .textItem {
+        width: 150px;
+    }
+
+    .Reviews .ItemsFilter .textItem p {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+
+    }
+
+    .Reviews .ItemsFilter .IconItem {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .Reviews .ItemsFilter .IconItem .icon {
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+        padding: 16px 20px 16px 20px;
+        border-radius: 62px;
+    }
+
+    .Reviews .ItemsFilter .IconItem .textFilter {
+        display: none;
+    }
+
+    .Reviews .ItemsFilter .IconItem .ButtomFilter {
+        width: 113px;
+        height: 40px;
+        padding: 12px 16px 12px 16px;
+        border-radius: 62px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16.2px;
+        text-align: left;
+
+    }
+    .AllComment{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .product{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .product .productItem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
 
