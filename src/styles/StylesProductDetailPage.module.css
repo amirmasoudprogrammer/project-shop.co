@@ -486,7 +486,7 @@
     }
 
     .TextDetail {
-        height: 610px;
+        height: 650px;
     }
 
     .TextDetail .Text h2 {
@@ -593,7 +593,7 @@
     }
 
     .Reviews .ItemsFilter .textItem {
-        width: 150px;
+        width: auto;
     }
 
     .Reviews .ItemsFilter .textItem p {
@@ -624,7 +624,7 @@
     }
 
     .Reviews .ItemsFilter .IconItem .ButtomFilter {
-        width: 113px;
+        width: auto;
         height: 40px;
         padding: 12px 16px 12px 16px;
         border-radius: 62px;
