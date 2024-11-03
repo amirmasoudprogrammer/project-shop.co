@@ -1,3 +1,17 @@
+.Namepages{
+    display: flex;
+    align-items: center;
+
+}
+.Namepages a{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color:  #00000099;
+}
+
 .PageMain {
     display: flex;
     flex-direction: column;

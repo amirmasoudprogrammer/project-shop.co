@@ -11,11 +11,13 @@ import svg4 from "@/public/VectorFilters.svg"
 import svg5 from "@/public/Vector 9999.svg"
 import svg6 from "@/public/VectorPuls.svg"
 import svg7 from "@/public/FrameMnf.svg"
+import svg8 from "@/public/Frameiconss.svg"
 import {addITEM, decrease, increase} from "@/src/redux/features/cart/cartSlice";
 import DataComment from "@/src/helper/DataComment";
 import CardComment from "@/src/components/module/CardComment";
 import CardProducts from "@/src/components/module/CardProducts";
 import Title from "@/src/components/module/Title";
+import Link from "next/link";
 
 
 const colors = ["#4F4631", "#314F4A", "#31344F"]
@@ -25,7 +27,9 @@ const size = ["Small", "Medium", "Large", "X-Large"]
 function ProductDetailPage({data}) {
 
 
-    const {id, title, description, price, images} = data
+    const {id, title, description, price, images , category} = data
+
+    const {name} = category || []
 
     const state = useSelector(store => store.cart)
     const {Products} = useSelector((store) => store.Products)
@@ -55,6 +59,13 @@ function ProductDetailPage({data}) {
     return (
         <>
             <Container maxWidth="lg">
+                <div className={styles.Namepages}>
+                   <Link href="/">Home</Link>
+                    <Image src={svg8} alt="icon" width={21} height={10}/>
+                    <Link href="/Categories">shop</Link>
+                    <Image src={svg8} alt="icon" width={21} height={10}/>
+                    <Link href="">{name}</Link>
+                </div>
                 <div className={styles.PageMain}>
                     <div className={styles.PageDetail}>
                         <Grid container spacing={2}>
