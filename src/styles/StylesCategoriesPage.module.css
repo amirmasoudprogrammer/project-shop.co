@@ -362,14 +362,14 @@
         margin-top: 21px;
         width: 306px;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .Products .Casual {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        width: 330px;
+        width:auto;
     }
 
     .Products .Casual span {
@@ -413,8 +413,8 @@
     .Products .Item {
         width: auto;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
 
     }
 

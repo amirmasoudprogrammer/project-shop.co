@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/20240316_221259_LE_auto_x2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/FrameCLOE.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/FrameRespon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Frameitems.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/VectorITems.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/template/CategoriesPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/DataCategorie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/StylesCategoriesPage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Categories/[...CategoriesId]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Categories/[...CategoriesId]/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Categories/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Categories/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/module/BannerImg.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/BannerImg.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/StylesCardProducts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesCardProducts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/stylesCategoriesHomePage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/stylesCategoriesHomePage.module.css" afterDir="false" />
-    </list>
+    <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +115,7 @@
       <workItem from="1730558401543" duration="11885000" />
       <workItem from="1730646321343" duration="17132000" />
       <workItem from="1730706316173" duration="14098000" />
-      <workItem from="1730788810230" duration="15460000" />
+      <workItem from="1730788810230" duration="16096000" />
     </task>
     <servers />
   </component>
