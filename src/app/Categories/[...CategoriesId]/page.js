@@ -1,6 +1,7 @@
 "use client"
 import React, {useEffect, useState} from 'react';
 import ProductDetailPage from "@/src/components/template/ProductDetailPage";
+import Loading from "@/src/components/module/Loading";
 
 
 function Page({params: {CategoriesId}}) {
@@ -16,9 +17,10 @@ function Page({params: {CategoriesId}}) {
 
         dataApi()
     }, [])
-    console.log(productData)
     return (
+
         <ProductDetailPage data={productData}/>
+
     );
 }
 

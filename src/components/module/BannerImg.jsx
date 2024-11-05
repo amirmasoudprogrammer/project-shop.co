@@ -31,7 +31,7 @@ function BannerImg(props) {
                     </h2>
                     <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your
                         individuality and cater to your sense of style.</p>
-                    <Link href="">Shop Now</Link>
+                    <Link href="/Categories">Shop Now</Link>
                     <div className={styles.Nambers}>
                         <div className={styles.ItemCardNamber}>
                             <div className={styles.NamberItem}>

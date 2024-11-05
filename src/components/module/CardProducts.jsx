@@ -13,7 +13,7 @@ function CardProducts({data}) {
 
     return (
         <Link className={styles.Card} href={`/Categories/${data.id}`}>
-            <Image src={images[1]} width={280} height={280} alt="image" priority={true}/>
+            <Image src={images[1]} width={260} height={260} alt="image" priority={true}/>
             <span>{Text(title)}</span>
             <div className={styles.icons}>
                 <Image src={svg1} alt="icon" width={113} height={19} priority={true}/>
