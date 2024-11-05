@@ -357,7 +357,7 @@
 
     .Products {
         display: flex;
-        margin-left: auto;
+        margin-left: 0;
         flex-direction: column;
         margin-top: 21px;
         width: 306px;
@@ -391,19 +391,19 @@
     }
 
     .Products .Casual div span {
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 18.9px;
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: auto;
 
     }
 
     .Products .Casual div .IconRES {
         display: block;
-        margin-left: 20px;
     }
 
     .Products .Casual div p {
