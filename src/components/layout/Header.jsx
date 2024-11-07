@@ -37,7 +37,7 @@ function Header(props) {
         setShow(!show)
     }
 
-    const startProfile = () =>{
+    const startProfile = () => {
         setDashboardShow(!dashboardShow)
     }
 
@@ -59,72 +59,74 @@ function Header(props) {
                     </div>
                 ) : ""
             }
-<Container maxWidth="lg">
-            <div className={styles.NavBarMenu}>
-                <div className={styles.responsive}>
-                    <Image src={svg6} onClick={showNavbar} alt="icon" width={24} height={24} priority={true}/>
-                </div>
-                <nav className={styles.Nav}>
-                    <div className={styles.LogoHeader}>
-                        <Link href="/">SHOP.CO</Link>
+            <Container maxWidth="lg">
+                <div className={styles.NavBarMenu}>
+                    <div className={styles.responsive}>
+                        <Image src={svg6} onClick={showNavbar} alt="icon" width={24} height={24} priority={true}/>
                     </div>
-                    <ul className={show ? styles.responsive_nav : null}>
-                        <li>
-                            <span>Shop </span>
-                            <Image src={svg4} alt="icon" width={11} height={6} priority={true}/>
-                        </li>
-                        <li><Link href="">On Sale</Link></li>
-                        <li><Link href="">New Arrivals</Link></li>
-                        <li><Link href="">Brands</Link></li>
-                        <button
-                            className={styles.Nav_close_btn}
-                            onClick={showNavbar}>
-                            <IoMdClose/>
-                        </button>
+                    <nav className={styles.Nav}>
+                        <div className={styles.LogoHeader}>
+                            <Link href="/">SHOP.CO</Link>
+                        </div>
+                        <ul className={show ? styles.responsive_nav : null}>
+                            <li>
+                                <span>Shop </span>
+                                <Image src={svg4} alt="icon" width={11} height={6} priority={true}/>
+                            </li>
+                            <li><Link href="">On Sale</Link></li>
+                            <li><Link href="">New Arrivals</Link></li>
+                            <li><Link href="">Brands</Link></li>
+                            <button
+                                className={styles.Nav_close_btn}
+                                onClick={showNavbar}>
+                                <IoMdClose/>
+                            </button>
 
-                    </ul>
-                </nav>
-                <div className={styles.InputSearsh}>
-                    <Image src={svg5} alt="icon" width={27} height={27} priority={true}/>
-                    <input type="text" placeholder="Search for products..."/>
-                </div>
-                <div className={styles.SearsResponsive}>
-                    <Image src={svg7} alt="icon" width={24} height={24} priority={true}/>
-                </div>
-                <div className={styles.itemNavbar}>
-                    <div className={styles.ShopCard}>
-                        <Link href="/shoppingCart"> <Image src={svg2} alt="icon" width={24} height={24} priority={true}/></Link>
+                        </ul>
+                    </nav>
+                    <div className={styles.InputSearsh}>
+                        <Image src={svg5} alt="icon" width={27} height={27} priority={true}/>
+                        <input type="text" placeholder="Search for products..."/>
                     </div>
-                    <div className={styles.signin}>
-                        {data ? (
-                            <div className={styles.LoginProfile} onClick={startProfile}>
-                                <Image src={imgpro} alt="icon" width={27} height={27} priority={true}/>
+                    <div className={styles.SearsResponsive}>
+                        <Image src={svg7} alt="icon" width={24} height={24} priority={true}/>
+                    </div>
+                    <div className={styles.itemNavbar}>
+                        <div className={styles.ShopCard}>
+                            <Link href="/shoppingCart"> <Image src={svg2} alt="icon" width={24} height={24}
+                                                               priority={true}/></Link>
 
-                                     <div className={dashboardShow ?  styles.dashboard  : styles.dashboard_off}>
+                        </div>
+                        <div className={styles.signin}>
+                            {data ? (
+                                <div className={styles.LoginProfile} onClick={startProfile}>
+                                    <Image src={imgpro} alt="icon" width={27} height={27} priority={true}/>
+
+                                    <div className={dashboardShow ? styles.dashboard : styles.dashboard_off}>
                                         <ul>
                                             <li>
                                                 <Link href="/dashboard">
                                                     حساب کاربری
                                                 </Link>
-                                                <MdOutlineAccountBox />
+                                                <MdOutlineAccountBox/>
                                             </li>
                                             <li onClick={signOut}>
                                                 خروج
-                                                <FaSignInAlt />
+                                                <FaSignInAlt/>
                                             </li>
                                         </ul>
                                     </div>
 
 
-                            </div>
-                        ) : (<Link href="/signup"> <Image src={svg3} alt="icon" width={24} height={24}
-                                                          priority={true}/></Link>)}
+                                </div>
+                            ) : (<Link href="/signup"> <Image src={svg3} alt="icon" width={24} height={24}
+                                                              priority={true}/></Link>)}
 
+                        </div>
                     </div>
-                </div>
 
-            </div>
-</Container>
+                </div>
+            </Container>
         </header>
 
 

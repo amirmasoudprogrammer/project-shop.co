@@ -179,7 +179,10 @@
         width: 358px;
         height: auto;
         border-radius: 20px;
+        align-items: center;
+        justify-content: center;
     }
+
     .PageShoping .ProductCaet {
         height: auto;
     }
@@ -193,22 +196,25 @@
         margin-top: 24px;
         padding-bottom: 30px;
     }
-    .PageShoping .Summary{
+
+    .PageShoping .Summary {
         margin-left: 0;
-        width:335px;
+        width: auto;
         height: auto;
         padding: 20px;
         border-radius: 20px;
         border: 1px solid #0000001A;
     }
-    .PageShoping .Summary .total .Apply{
+
+    .PageShoping .Summary .total .Apply {
         width: auto;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .PageShoping .Summary .Checkout{
-        width:318px;
+
+    .PageShoping .Summary .Checkout {
+        width: 318px;
         height: 54px;
         padding: 16px 54px 16px 54px;
         border-radius: 62px;

@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/shoppingCart/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/module/CardItems.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/module/ColorPicker.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/module/ProductList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/module/SizeSelector.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/template/CardShoping.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/StylesCartShop.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/StylesColorPicker.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/StylesShopingCart.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/StylesSizeSelector.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/CardProducts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/module/Popup.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/CategoriesHomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/CategoriesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/CategoriesPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/template/ProductDetailPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/ProductDetailPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/features/cart/cartSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/features/cart/cartSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/StylesCategoriesPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesCategoriesPage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/StylesProductDetailPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesProductDetailPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesShopingCart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesShopingCart.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/PROGRMMING/REACT/project-redux-cardshop",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PROGRMMING/REACT/project-redux-cardshop&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -143,7 +122,8 @@
       <workItem from="1730788810230" duration="17186000" />
       <workItem from="1730834482528" duration="3157000" />
       <workItem from="1730886706063" duration="2436000" />
-      <workItem from="1730967843508" duration="21739000" />
+      <workItem from="1730967843508" duration="22787000" />
+      <workItem from="1730992300286" duration="1123000" />
     </task>
     <servers />
   </component>
