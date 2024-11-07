@@ -1,7 +1,16 @@
 .Namepages {
     display: flex;
     align-items: center;
-    margin-left: 12px;
+
+}
+
+.Namepages a {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #00000099;
 }
 
 .MainPages {
@@ -20,7 +29,7 @@
     margin-top: 20px;
 }
 
-.MainPages  .filters {
+.MainPages .filters {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,22 +37,22 @@
     height: 27px;
 }
 
-.MainPages  .filters .FilterIcons {
+.MainPages .filters .FilterIcons {
     display: block;
 }
 
-.MainPages  .filters div {
+.MainPages .filters div {
     display: none;
 }
 
-.MainPages  .border {
+.MainPages .border {
     margin-top: 20px;
     border-bottom: 1px solid #0000001A;
     width: 247px;
     height: 0;
 }
 
-.MainPages  .filters span {
+.MainPages .filters span {
     font-size: 20px;
     font-weight: 700;
     line-height: 27px;
@@ -53,13 +62,13 @@
 
 }
 
-.MainPages  .NameCategories {
+.MainPages .NameCategories {
     width: 247px;
     height: auto;
     margin-top: 20px;
 }
 
-.MainPages  .NameCategories a {
+.MainPages .NameCategories a {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -348,7 +357,7 @@
         display: flex;
     }
 
-    .MainPages  .border {
+    .MainPages .border {
         margin-top: 20px;
         border-bottom: 1px solid #0000001A;
         width: 100%;
@@ -369,7 +378,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        width:auto;
+        width: auto;
     }
 
     .Products .Casual span {
@@ -418,7 +427,7 @@
 
     }
 
-    .MainPages .sidebaroFF{
+    .MainPages .sidebaroFF {
         position: absolute;
         background-color: white;
         width: auto;
@@ -445,7 +454,7 @@
 
     }
 
-    .MainPages  .filters {
+    .MainPages .filters {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -453,20 +462,20 @@
         height: 27px;
     }
 
-    .MainPages  .filters .FilterIcons {
+    .MainPages .filters .FilterIcons {
         display: none;
     }
 
-    .MainPages  .filters div {
+    .MainPages .filters div {
         display: flex;
     }
 
-    .MainPages  .filters div img {
+    .MainPages .filters div img {
         display: block;
         cursor: pointer;
     }
 
-    .MainPages  .NameCategories {
+    .MainPages .NameCategories {
         width: 100%;
         height: auto;
         margin-top: 20px;

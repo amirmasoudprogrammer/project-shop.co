@@ -1,0 +1,33 @@
+
+.ButtonItems {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 18px;
+    flex-direction: column;
+    border-bottom: 1px solid #0000001A;
+    padding-bottom: 18px;
+}
+
+.ButtonItems .nameColors {
+    color: #00000099;
+}
+
+.ButtonItems .itemColor {
+    display: flex;
+    align-items: center;
+}
+
+.ButtonItems .itemColor button {
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.ButtonItems button span {
+    color: #fff;
+}

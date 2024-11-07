@@ -1,0 +1,220 @@
+.Namepages {
+    display: flex;
+    align-items: center;
+
+}
+
+.Namepages a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #00000099;
+}
+
+.PageShoping {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PageShoping .ProductCaet .NameCart {
+    width: 259px;
+    height: 48px;
+    margin-top: 24px;
+}
+
+.PageShoping .ProductCaet .NameCart span {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+
+
+}
+
+.PageShoping .ProductCaet .Product {
+    width: 715px;
+    height: 508px;
+    padding: 20px 24px 20px 24px;
+    border-radius: 20px;
+    border: 1px solid #0000001A;
+    margin-top: 24px;
+}
+
+.PageShoping .Summary {
+    width: 505px;
+    height: 458px;
+    padding: 20px 24px 20px 24px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border: 1px solid #0000001A;
+}
+
+.PageShoping .Summary h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+
+}
+
+.PageShoping .Summary .order {
+
+}
+
+.PageShoping .Summary .order div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.PageShoping .Summary .order div span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #00000099;
+
+}
+
+.PageShoping .Summary .order div p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: right;
+
+}
+
+.PageShoping .Summary .border {
+    margin-top: 20px;
+    border-bottom: 1px solid #0000001A;
+    width: 457px;
+    height: 0;
+}
+
+.PageShoping .Summary .total {
+    margin-top: 40px;
+}
+
+.PageShoping .Summary .total div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PageShoping .Summary .total div span {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #000000;
+    text-align: left;
+
+}
+
+.PageShoping .Summary .total div p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: right;
+
+}
+
+.PageShoping .Summary .total .Apply {
+    margin-top: 24px;
+    width: 457px;
+    height: 48px;
+    background-color: #F0F0F0;
+
+
+}
+
+.PageShoping .Summary .total .Apply input {
+    width: 326px;
+    height: 48px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 69px 0 0 69px;
+    outline: none;
+    border: 1px dashed #ece0e0;
+
+
+}
+
+.PageShoping .Summary .total .Apply button {
+    width: 119px;
+    height: 48px;
+    padding: 12px 16px 12px 16px;
+    outline: none;
+    border: none;
+    background-color: #000000;
+    color: white;
+    border-radius: 62px;
+
+}
+
+.PageShoping .Summary .Checkout {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 457px;
+    height: 60px;
+    padding: 16px 54px 16px 54px;
+    background-color: #000000;
+    color: white;
+    border-radius: 62px;
+    cursor: pointer;
+}
+
+.PageShoping .Summary .Checkout button {
+
+}
+
+@media (max-width: 480px) {
+    .PageShoping {
+        flex-wrap: wrap;
+        width: 358px;
+        height: auto;
+        border-radius: 20px;
+    }
+    .PageShoping .ProductCaet {
+        height: auto;
+    }
+
+    .PageShoping .ProductCaet .Product {
+        padding: 0;
+        width: 358px;
+        height: auto;
+        border-radius: 20px;
+        border: 1px solid #0000001A;
+        margin-top: 24px;
+        padding-bottom: 30px;
+    }
+    .PageShoping .Summary{
+        margin-left: 0;
+        width:335px;
+        height: auto;
+        padding: 20px;
+        border-radius: 20px;
+        border: 1px solid #0000001A;
+    }
+    .PageShoping .Summary .total .Apply{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .PageShoping .Summary .Checkout{
+        width:318px;
+        height: 54px;
+        padding: 16px 54px 16px 54px;
+        border-radius: 62px;
+    }
+}
+
+
+
+

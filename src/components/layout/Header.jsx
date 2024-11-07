@@ -93,7 +93,7 @@ function Header(props) {
                 </div>
                 <div className={styles.itemNavbar}>
                     <div className={styles.ShopCard}>
-                        <Link href=""> <Image src={svg2} alt="icon" width={24} height={24} priority={true}/></Link>
+                        <Link href="/shoppingCart"> <Image src={svg2} alt="icon" width={24} height={24} priority={true}/></Link>
                     </div>
                     <div className={styles.signin}>
                         {data ? (

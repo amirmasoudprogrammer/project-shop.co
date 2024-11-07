@@ -19,23 +19,14 @@ const size = ["Small", "Medium", "Large", "X-Large", "XX-Small", "X-Small", "XX-
 function CategoriesPage({data}) {
 
 
-    const [values, setValues] = useState([20, 200])
+    const [values, setValues] = useState([20, 200]);
     const [selectedColor, setSelectedColor] = useState(null);
     const [selectedSize, setSelectedSize] = useState(null);
     const [close, setClose] = useState(false);
-    const handleSliderChange = (event, newValue) => {
-        setValues(newValue);
-    };
-    const handlerSelectSize = (size) => {
-        setSelectedSize(size)
-        console.log(size)
-    }
 
-
-    const handleColorClick = (color) => {
-        setSelectedColor(color);
-        console.log(color)
-    };
+    const handleSliderChange = (event, newValue) => setValues(newValue);
+    const handleColorClick = (color) => setSelectedColor(color);
+    const handleSizeSelect = (size) => setSelectedSize(size);
 
     const handlerMenu = () =>{
         setClose(true)

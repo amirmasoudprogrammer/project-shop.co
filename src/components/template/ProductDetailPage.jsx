@@ -18,40 +18,34 @@ import CardComment from "@/src/components/module/CardComment";
 import CardProducts from "@/src/components/module/CardProducts";
 import Title from "@/src/components/module/Title";
 import Link from "next/link";
-
-
-const colors = ["#4F4631", "#314F4A", "#31344F"]
-const size = ["Small", "Medium", "Large", "X-Large"]
+import ColorPicker from "@/src/components/module/ColorPicker";
+import SizeSelector from "@/src/components/module/SizeSelector";
 
 
 function ProductDetailPage({data}) {
 
+    const {id, title, description, price, images, category} = data;
+    const {name} = category || {};
 
-    const {id, title, description, price, images , category} = data
+    const state = useSelector(store => store.cart);
+    const {Products} = useSelector(store => store.Products);
 
-    const {name} = category || []
+    const dispatch = useDispatch();
+    const quantity = quantityitms(state, id);
 
-    const state = useSelector(store => store.cart)
-    const {Products} = useSelector((store) => store.Products)
-
-    const dispatch = useDispatch()
-
-    const quantity = quantityitms(state, id)
-
-
-    const image = data?.images || []
-
-    const [mainImage, setMainImage] = useState(image);
+    const [mainImage, setMainImage] = useState(images?.[0] || null);
     const [selectedColor, setSelectedColor] = useState(null);
     const [selectedSize, setSelectedSize] = useState(null);
+
     const handleImageChange = (image) => {
         setMainImage(image);
     };
-    const handleColorClick = (color) => {
+    const onSelectColor = (color) => {
         setSelectedColor(color);
         console.log(color)
+
     };
-    const handlerSelectSize = (size) => {
+    const onSelectSize = (size) => {
         setSelectedSize(size)
         console.log(size)
     }
@@ -60,7 +54,7 @@ function ProductDetailPage({data}) {
         <>
             <Container maxWidth="lg">
                 <div className={styles.Namepages}>
-                   <Link href="/">Home</Link>
+                    <Link href="/">Home</Link>
                     <Image src={svg8} alt="icon" width={21} height={10}/>
                     <Link href="/Categories">shop</Link>
                     <Image src={svg8} alt="icon" width={21} height={10}/>
@@ -72,22 +66,21 @@ function ProductDetailPage({data}) {
                             <Grid size={{xl: 7, lg: 7, md: 6, sm: 12, xs: 12}}>
                                 <div className={styles.Imges}>
                                     <div className={styles.ItemImages}>
-                                        {images?.map((image, index) => (
+                                        {images?.map((img, index) => (
                                             <Image
-                                                className={image === mainImage ? styles.imgCard : null}
                                                 key={index}
-                                                src={image}
-                                                alt={`عکس ${index + 1}`}
+                                                src={img}
+                                                alt={`Image ${index + 1}`}
                                                 width={152}
                                                 height={168}
-                                                onClick={() => handleImageChange(image)}
+                                                className={img === mainImage ? styles.imgCard : null}
+                                                onClick={() => setMainImage(img)}
                                             />
                                         ))}
                                     </div>
                                     <div className={styles.ItemIMG}>
-                                        {mainImage ? (<Image src={mainImage} alt="IMAGE" width={444} height={530}/>) :
+                                        {mainImage ? <Image src={mainImage} alt="IMAGE" width={444} height={530}/> :
                                             <Loading/>}
-
                                     </div>
                                 </div>
                             </Grid>
@@ -106,38 +99,28 @@ function ProductDetailPage({data}) {
                                         </div>
                                         <p>{description}</p>
                                     </div>
-                                    {price ? (<div className={styles.ButtonItems}>
-                                        <span className={styles.nameColors}>Select Colors</span>
-                                        <div className={styles.itemColor}>
-                                            {colors.map((color) => (
-                                                <button style={{background: color}} key={color}
-                                                        onClick={() => handleColorClick(color)}>
-                                                    {selectedColor === color && (
-                                                        <span>
-                                                          ✓
-                                                     </span>
-                                                    )}
-                                                </button>
-                                            ))}
-                                        </div>
-                                    </div>) : null}
-                                    {price ? (<div className={styles.selectSize}>
-                                        <div className={styles.TextSelectItem}>Choose Size</div>
-                                        <div className={styles.ItemSelect}>
-                                            {size.map((i, index) => (
-                                                <div key={index} onClick={() => handlerSelectSize(i)}
-                                                     className={selectedSize === i ? styles.SelectColor : styles.Select}>
-                                                    <span>{i}</span>
-                                                </div>))}
-                                        </div>
-
-                                    </div>) : null}
+                                    {price ? (<ColorPicker selectedColor={selectedColor}
+                                                           colors={["darkolivegreen", "Olive", "blue"]}
+                                                           onSelectColor={onSelectColor}/>) : null}
+                                    {price ? (<SizeSelector selectedSize={selectedSize}
+                                                            sizes={["Small", "Medium", "Large", "X-Large"]}
+                                                            onSelectSize={onSelectSize}/>) : null}
 
                                     {
                                         price ? (<div className={styles.AddButtomAndQuantity}>
                                                 <div className={styles.AddItem}>
                                                     {quantity === 0 ? (<button className={styles.AddItem}
-                                                                               onClick={() => dispatch(addITEM(data))}>Add
+                                                                               onClick={() => {
+                                                                                   if (selectedColor && selectedSize) {
+                                                                                       dispatch(addITEM({
+                                                                                           ...data,
+                                                                                           colors: selectedColor,
+                                                                                           size: selectedSize
+                                                                                       }))
+                                                                                   } else {
+                                                                                       alert("لطفا سایز و رنگ انتخاب کنید")
+                                                                                   }
+                                                                               }}>Add
                                                         Cart</button>) : <button className={styles.AddItem}
                                                                                  onClick={() => alert("به سبد خرید اضافه شد")}>Add
                                                         Cart</button>}
@@ -146,13 +129,21 @@ function ProductDetailPage({data}) {
                                                     {quantity === 0 ?
                                                         <button><Image src={svg6} alt="icon" width={18} height={18}/>
                                                         </button> :
-                                                        <button onClick={() => dispatch(increase(data))}><Image src={svg6}
-                                                                                                                alt="icon"
-                                                                                                                width={18}
-                                                                                                                height={18}/>
+                                                        <button onClick={() => dispatch(increase({
+                                                            ...data,
+                                                            colors: selectedColor,
+                                                            size: selectedSize
+                                                        }))}><Image src={svg6}
+                                                                    alt="icon"
+                                                                    width={18}
+                                                                    height={18}/>
                                                         </button>}
                                                     <span>{!!quantity && <span>{quantity}</span>}</span>
-                                                    {quantity > 1 ? <button onClick={() => dispatch(decrease(data))}>
+                                                    {quantity > 1 ? <button onClick={() => dispatch(decrease({
+                                                        ...data,
+                                                        colors: selectedColor,
+                                                        size: selectedSize
+                                                    }))}>
                                                         <Image src={svg7} alt="iocon" width={18} height={18}/>
                                                     </button> : <button onClick={() => alert("یک محصول در سبد خرید هست.")}>
                                                         <Image src={svg7} alt="iocon" width={18} height={18}/>
@@ -194,29 +185,29 @@ function ProductDetailPage({data}) {
                             </div>
                         </div>
                     </div>) : null}
-                    <div className={styles.AllComment}>
-                        {DataComment.map((item,index) =>
+                    {price ? (<div className={styles.AllComment}>
+                        {DataComment.map((item, index) =>
                             <div className={styles.cardCom} key={index}>
-                                <CardComment data={item} />
+                                <CardComment data={item}/>
                             </div>
                         )}
-                    </div>
-                    <div className={styles.More_Reviews}>
+                    </div>) : null}
+                    {price ? (<div className={styles.More_Reviews}>
                         <span>Load More Reviews</span>
-                    </div>
+                    </div>) : null}
                 </div>
-                <div className={styles.product}>
+                {price ? (<div className={styles.product}>
                     <Title name="You might also like"/>
                     <div className={styles.productItem}>
-                    {Products.slice(0, 4).map((item) => (
-                        <Grid container key={item.id}>
-                            <Grid size={{xl: 3, lg: 3, md: 3, sm: 12, xs: 12}} mt={5}>
-                                <CardProducts data={item}/>
+                        {Products.slice(0, 4).map((item) => (
+                            <Grid container key={item.id}>
+                                <Grid size={{xl: 3, lg: 3, md: 3, sm: 12, xs: 12}} mt={5}>
+                                    <CardProducts data={item}/>
+                                </Grid>
                             </Grid>
-                        </Grid>
-                    ))}
+                        ))}
                     </div>
-                </div>
+                </div>) : null}
             </Container>
         </>
     );

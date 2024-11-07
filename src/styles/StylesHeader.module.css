@@ -239,7 +239,7 @@
     .NavBarMenu {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
         width: auto;
         padding-top: 20px;
     }
@@ -248,13 +248,14 @@
         align-items: center;
         justify-content: space-between;
         width: auto;
+        margin-top: 0;
     }
 
     .NavBarMenu .Nav .LogoHeader {
         font-size: 25.2px;
         font-weight: 700;
-        line-height: 30.24px;
         text-align: left;
+        margin-top: -6px;
 
     }
 

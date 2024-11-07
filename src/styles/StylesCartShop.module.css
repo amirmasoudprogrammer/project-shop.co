@@ -1,0 +1,199 @@
+.Cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 667px;
+    height: 124px;
+    margin-top: 48px;
+}
+
+.Cart .imgAndDetail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.Cart .imgAndDetail .Imges img {
+    border-radius: 10px;
+}
+
+.Cart .imgAndDetail .Detail {
+    margin-left: 16px;
+    width: 527px;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.Cart .imgAndDetail .Detail span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+}
+
+.Cart .imgAndDetail .Detail .itemS {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 527px;
+}
+
+.Cart .imgAndDetail .Detail .itemS .removeITEM {
+    cursor: pointer;
+}
+
+.Cart .imgAndDetail .Detail .itemS .removeITEM button {
+    color: #FF3333;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.Cart .imgAndDetail .Detail .ColorAndSize span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+}
+
+.Cart .imgAndDetail .Detail .ColorAndSize p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+}
+
+.Cart .imgAndDetail .Detail .ColorAndSize span strong {
+    color: #00000099;
+    margin-left: 5px;
+}
+
+.Cart .imgAndDetail .Detail .ColorAndSize p strong {
+    color: #00000099;
+    margin-left: 5px;
+}
+
+.Cart .imgAndDetail .Detail .Price {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 527px;
+}
+
+.Cart .imgAndDetail .Detail .Price .increase {
+    width: 126px;
+    height: 44px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 62px;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Cart .imgAndDetail .Detail .Price .increase button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.Cart .imgAndDetail .Detail .Price span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+
+}
+
+
+@media (max-width: 480px) {
+    .Cart {
+        width: 358px;
+        height: auto;
+        border-radius: 20px;
+        display: flex;
+
+    }
+
+    .Cart .imgAndDetail .Imges img {
+        width: 99px;
+        height: 99px;
+    }
+
+    .Cart .imgAndDetail {
+        width: 330px;
+        height: 99px;
+        display: flex;
+        align-items: center;
+        padding-left: 16px;
+    }
+
+    .Cart .imgAndDetail .Detail {
+        margin-left: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 217px;
+        height: 99px;
+    }
+
+    .Cart .imgAndDetail .Detail span {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 21.6px;
+        text-align: left;
+    }
+
+    .Cart .imgAndDetail .Detail .itemS {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:207px;
+    }
+    .Cart .imgAndDetail .Detail .itemS .removeITEM {
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .Cart .imgAndDetail .Detail .Price {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 20px;
+    }
+
+    .Cart .imgAndDetail .Detail .Price .increase {
+        width: 105px;
+        height: 31px;
+        padding: 14px 20px 14px 20px;
+        gap: 20px;
+        border-radius: 62px;
+        background-color: #F0F0F0;
+        margin-left: 60px;
+    }
+
+    .Cart .imgAndDetail .Detail .Price .increase button {
+        outline: none;
+        border: none;
+        background-color: transparent;
+        font-size: 30px;
+    }
+    .Cart .imgAndDetail .Detail .Price span {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32.4px;
+        text-align: left;
+
+    }
+
+
+}

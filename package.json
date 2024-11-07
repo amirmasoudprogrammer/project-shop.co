@@ -17,6 +17,7 @@
     "@reduxjs/toolkit": "^2.3.0",
     "aos": "^2.3.4",
     "bcryptjs": "^2.4.3",
+    "color-name-list": "^10.28.0",
     "mongodb": "^6.10.0",
     "mongoose": "^8.7.2",
     "next": "^14.1.0",
