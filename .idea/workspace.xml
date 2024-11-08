@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Banner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Banner.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesCartShop.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesCartShop.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesFooter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesFooter.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesProductDetailPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesProductDetailPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesShopingCart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesShopingCart.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/PROGRMMING/REACT/project-redux-cardshop&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/PROGRMMING/NEXT/shop.com/public",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -127,7 +129,7 @@
       <workItem from="1730992300286" duration="1123000" />
       <workItem from="1731000262160" duration="1223000" />
       <workItem from="1731002031362" duration="284000" />
-      <workItem from="1731063174752" duration="9585000" />
+      <workItem from="1731063174752" duration="10725000" />
     </task>
     <servers />
   </component>

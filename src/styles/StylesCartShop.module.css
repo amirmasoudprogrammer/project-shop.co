@@ -114,7 +114,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (min-device-width: 320px) and (max-device-width: 699px) {
     .Cart {
         width: 358px;
         height: auto;

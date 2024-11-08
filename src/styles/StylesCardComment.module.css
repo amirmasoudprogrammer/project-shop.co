@@ -89,9 +89,9 @@
 }
 
 /* تنظیمات برای موبایل‌ها */
-@media (min-device-width: 320px) and (max-device-width: 490px) {
+@media (min-device-width: 320px) and (max-device-width: 699px)  {
     .CardItemPost {
-        width:358px;
+        width:340px;
         height:auto;
         padding: 24px ;
         gap: 332px;

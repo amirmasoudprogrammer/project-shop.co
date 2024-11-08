@@ -173,10 +173,10 @@
 
 }
 
-@media (max-width: 480px) {
+@media (min-device-width: 320px) and (max-device-width: 699px) {
     .PageShoping {
         flex-wrap: wrap;
-        width: 358px;
+        width: auto;
         height: auto;
         border-radius: 20px;
         align-items: center;
@@ -197,10 +197,16 @@
         padding-bottom: 30px;
     }
 
+    .PageShoping .Summary .border {
+        margin-top: 20px;
+        border-bottom: 1px solid #0000001A;
+        width: 300px;
+        height: 0;
+    }
     .PageShoping .Summary {
         margin-left: 0;
-        width: auto;
-        height: auto;
+        width: 358px;
+        height: 390px;
         padding: 20px;
         border-radius: 20px;
         border: 1px solid #0000001A;
