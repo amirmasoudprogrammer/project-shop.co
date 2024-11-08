@@ -19,7 +19,7 @@ const size = ["Small", "Medium", "Large", "X-Large", "XX-Small", "X-Small", "XX-
 function CategoriesPage({data}) {
 
 
-    const [values, setValues] = useState([20, 200]);
+    const [values, setValues] = useState([10, 200]);
     const [selectedColor, setSelectedColor] = useState(null);
     const [selectedSize, setSelectedSize] = useState(null);
     const [close, setClose] = useState(false);
@@ -28,12 +28,18 @@ function CategoriesPage({data}) {
     const handleColorClick = (color) => setSelectedColor(color);
     const handleSizeSelect = (size) => setSelectedSize(size);
 
-    const handlerMenu = () =>{
+
+    const handlerMenu = () => {
         setClose(true)
         console.log("start")
     }
-    const handlerClose = () =>{
+    const handlerClose = () => {
         setClose(false)
+    }
+    const startFilter = () => {
+
+        const filters = data.filter(items => items.price > values[0] && items.price < values[1])
+
     }
 
     return (
@@ -101,7 +107,7 @@ function CategoriesPage({data}) {
                                             '& .MuiSlider-rail': {
                                                 color: "#F0F0F0",
                                             }
-                                        }} step={1} value={values} onChange={handleSliderChange} min={50} max={250}/>
+                                        }} step={1} value={values} onChange={handleSliderChange} min={10} max={250}/>
                                 <div className={styles.values}>
                                     <span>${values[0]}</span>
                                     <span>${values[1]}</span>
@@ -165,7 +171,7 @@ function CategoriesPage({data}) {
                                 </Link>
                             </div>
                         </div>
-                        <div className={styles.ButtomFilters}>
+                        <div className={styles.ButtomFilters} onClick={startFilter}>
                             <button>
                                 Apply Filter
                             </button>
@@ -181,7 +187,7 @@ function CategoriesPage({data}) {
                                     <Image src={svg5} alt="icon" width={11} height={6} priority={true}/>
                                 </p>
                                 <div className={styles.IconRES} onClick={handlerMenu}>
-                                    <Image  src={svg6} alt="icon" width={32} height={32} priority={true}/>
+                                    <Image src={svg6} alt="icon" width={32} height={32} priority={true}/>
                                 </div>
                             </div>
                         </div>
@@ -196,10 +202,9 @@ function CategoriesPage({data}) {
 
                                 : null}
                             {
-                                data.slice(0, 30).map((i) =>
 
-                                    <CardProducts data={i} key={i.id}/>
-                                )
+
+                                data.slice(0, 30).map((i) => <CardProducts data={i} key={i.id}/>)
                             }
 
                         </div>
