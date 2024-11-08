@@ -361,7 +361,7 @@
 
 }
 
-@media (min-device-width: 320px) and (max-device-width: 690px) {
+@media (min-device-width: 320px) and (max-device-width: 699px) {
     /* استایل‌ها برای حالت افقی 480x320 */
     .headerTop .headerText span {
         width: 100%;

@@ -352,7 +352,7 @@
     border-radius: 10px;
 }
 
-@media (max-width: 480px) {
+@media (min-device-width: 320px) and (max-device-width: 699px) {
     .MainPages {
         display: flex;
     }
@@ -369,7 +369,7 @@
         margin-left: 0;
         flex-direction: column;
         margin-top: 21px;
-        width: 306px;
+        width: auto;
         align-items: center;
         justify-content: flex-start;
     }
@@ -377,8 +377,8 @@
     .Products .Casual {
         display: flex;
         align-items: center;
-        justify-content: flex-start;
-        width: auto;
+        justify-content: space-between;
+        width: 100%;
     }
 
     .Products .Casual span {
