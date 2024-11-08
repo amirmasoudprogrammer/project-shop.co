@@ -8,13 +8,12 @@ import CardItems from "@/src/components/module/CardItems";
 import {useDispatch} from "react-redux";
 import {checkout} from "@/src/redux/features/cart/cartSlice";
 import {useSession} from "next-auth/react";
-import {useRouter} from "next/navigation";
+import {toast, Toaster} from "sonner";
 
 
 function CardShoping({data}) {
     const [productCart, setProductCart] = useState([])
     const session =useSession()
-    const router =useRouter()
     const dispatch = useDispatch();
     useEffect(() => {
         setProductCart(data)
@@ -57,7 +56,7 @@ console.log(productCart)
                         <div className={styles.total}>
                             <div>
                                 <span>Total</span>
-                                <p>{productCart.total}</p>
+                                <p>${productCart.total}</p>
                             </div>
                             <div className={styles.Apply}>
                                 <input type="text" placeholder="Add promo code"/>
@@ -67,10 +66,9 @@ console.log(productCart)
                         <div className={styles.Checkout} onClick={() =>
                         {
                             if (session.status === "unauthenticated"){
-                                alert("لطفا اول ثبت نام کنید")
-                                router.push("/signup")
+                                toast.error("لطفا اول ثبت نام کنید")
                             }else if (productCart.itemsCounter === 0 ) {
-                                    alert("سبد خالی است لطفا خرید کنید")
+                                toast.error("سبد خالی است لطفا خرید کنید")
                             }
                             else {
                                 dispatch(checkout(data))
@@ -80,6 +78,7 @@ console.log(productCart)
                             <buttom>Go to Checkout</buttom>
                         </div>
                     </div>
+                    <Toaster position="top-center" richColors/>
                 </div>
             </Container>
 

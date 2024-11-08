@@ -15,7 +15,7 @@ export async function POST(req) {
 
         if (!email , !password) {
             return NextResponse.json(
-                {error: "لطفا ایمیل و پسورد معتبر وارد کنید"},
+                {error: "Please enter a valid email and password"},
                 {status: 422}
             )
         }
@@ -23,7 +23,7 @@ export async function POST(req) {
         const existingUser = await User.findOne({email: email})
         if (existingUser) {
             return NextResponse.json(
-                {error: "این حساب کاربری وجود دارد"},
+                {error: "This account exists"},
                 {status: 422}
             )
         }
@@ -37,7 +37,7 @@ export async function POST(req) {
         console.log(NewUser);
 
         return NextResponse.json(
-            { message: "حساب کاربری ایجاد شد" },
+            { message: "User account created" },
             { status: 201 }
         );
 
@@ -45,7 +45,7 @@ export async function POST(req) {
     } catch (error) {
         console.log(error)
         NextResponse.json(
-            {error: "خطا در شبکه"},
+            {error: "Network error"},
             {status: 500}
         )
 

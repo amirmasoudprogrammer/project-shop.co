@@ -16,19 +16,19 @@ export const authOptions = {
                 try {
                     await connectDB();
                 } catch (error) {
-                    throw new Error("مشکلی در سرور رخ داده است");
+                    throw new Error("A problem has occurred on the server");
                 }
                 if (!email || !password) {
-                    throw new Error("لطفا اطلاعات معتبر وارد کنید");
+                    throw new Error("Please enter valid information");
                 }
                 const user = await User.findOne({email: email});
 
-                if (!user) throw new Error("لطفا ابتدا حساب کاربری ایجاد کنید");
+                if (!user) throw new Error("Please create an account first");
 
                 const isValid = await verifyPassword(password, user.password)
 
 
-                if (!isValid) throw new Error("ایمیل یا رمز عبور اشتباه است");
+                if (!isValid) throw new Error("Email or password is incorrect");
 
                 return {email};
 

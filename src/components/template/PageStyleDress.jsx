@@ -13,7 +13,7 @@ function PageStyleDress(props) {
     return (
         <Container maxWidth="lg">
         <div className={styles.Page}>
-            <Title name="BROWSE BY dress STYLE"/>
+            <Title name="BROWSE BY DRESS STYLE"/>
 
             <div className={styles.images}>
                 <Image src={img1} alt="icon" width={684} height={289} priority={true}/>

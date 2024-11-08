@@ -174,8 +174,7 @@
 .footerTextBottom .LinkImg {
     margin-right: 100px;
 }
-
-@media (max-width: 480px) {
+@media (min-device-width: 770px) and (max-device-width: 1024px){
     .footerUp {
         flex-direction: column;
         width: 335px;
@@ -222,7 +221,7 @@
         width: 270px;
         background-color: transparent;
         direction: ltr;
-
+        margin-left: 20px;
     }
 
     .Subscribe button {
@@ -240,9 +239,86 @@
         align-items: center;
         justify-content: center;
     }
-    .footerTextBottom span{
+
+    .footerTextBottom span {
         margin: 0;
     }
+
+    .footerTextBottom .LinkImg {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+}
+@media (min-device-width: 320px) and (max-device-width: 490px){
+    .footerUp {
+        flex-direction: column;
+        width: 335px;
+        height: 296px;
+        align-items: center;
+        padding: 5px;
+        justify-content: space-around;
+
+    }
+
+    .footerUp .text {
+        text-align: left;
+        width: 320px;
+        display: flex;
+        margin-left: 80px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerUp .text span {
+        color: rgba(255, 255, 255, 1);
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .Subscribe {
+        margin: 0 auto;
+    }
+
+    .Subscribe div {
+        display: flex;
+        background: rgba(255, 255, 255, 1);
+        direction: rtl;
+        height: 40px;
+        width: 270px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .Subscribe div input {
+        outline: none;
+        border: none;
+        width: 270px;
+        background-color: transparent;
+        direction: ltr;
+        margin-left: 20px;
+    }
+
+    .Subscribe button {
+        margin-top: 10px;
+        height: 40px;
+        width: 270px;
+        border-radius: 50px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .footerTextBottom {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerTextBottom span {
+        margin: 0;
+    }
+
     .footerTextBottom .LinkImg {
         margin-right: 0;
         margin-top: 20px;

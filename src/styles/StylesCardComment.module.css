@@ -57,7 +57,8 @@
 
 }
 
-@media (max-width: 480px) {
+/* تنظیمات برای تبلت‌ها */
+@media (min-device-width: 770px) and (max-device-width: 1024px) {
     .CardItemPost {
         width:358px;
         height:auto;
@@ -67,11 +68,42 @@
     }
 
     .CardItem {
-        width: 360px;
-        height: 207px;
+        width: 330px;
+        height: 205px;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 20px;
-        margin-right: 10px;
+        margin-right: 40px;
+    }
+
+    .Title p {
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+
+
+    }
+
+}
+
+/* تنظیمات برای موبایل‌ها */
+@media (min-device-width: 320px) and (max-device-width: 490px) {
+    .CardItemPost {
+        width:358px;
+        height:auto;
+        padding: 24px ;
+        gap: 332px;
+        border-radius: 20px;
+    }
+
+    .CardItem {
+        width: 330px;
+        height: 205px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        margin-right: 40px;
     }
 
     .Title p {

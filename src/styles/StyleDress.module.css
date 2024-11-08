@@ -18,10 +18,14 @@
 .Page .images img {
     margin: 5px;
 }
+/* تنظیمات برای تبلت‌ها */
 
-@media (max-width: 480px) {
+@media (min-device-width: 770px) and (max-device-width: 1024px) {
     .Page {
-        height: 1024px;
+        width: 358px;
+        height: auto;
+        border-radius: 20px ;
+        margin: 0 auto;
     }
 
     .Page .images {
@@ -29,6 +33,29 @@
         display: flex;
         align-items: center;
         justify-content: center
+    }
+
+    .Page .images img {
+        width: 310px;
+        height: 190px;
+    }
+
+}
+
+/* تنظیمات برای موبایل‌ها */
+@media (min-device-width: 320px) and (max-device-width: 490px) {
+    .Page {
+        width: auto;
+        height: auto;
+        border-radius: 20px ;
+        margin: 0 auto;
+    }
+
+    .Page .images {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .Page .images img {

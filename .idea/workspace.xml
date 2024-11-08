@@ -3,8 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="8c4d4e83-7703-4f4c-a7a8-d7b83154f458" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth/signup/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/signup/route.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/StylesShopingCart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesShopingCart.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/CardShoping.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/CardShoping.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/CategoriesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/CategoriesPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/PageStyleDress.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/PageStyleDress.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/SigninPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SigninPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/SliderUser.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/SliderUser.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Banner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Banner.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Popup.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StyleDress.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StyleDress.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesCardComment.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesFooter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesFooter.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StylesSlider.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/StylesSlider.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/stylesCategoriesHomePage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/stylesCategoriesHomePage.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +138,9 @@
       <workItem from="1730886706063" duration="2436000" />
       <workItem from="1730967843508" duration="22787000" />
       <workItem from="1730992300286" duration="1123000" />
+      <workItem from="1731000262160" duration="1223000" />
+      <workItem from="1731002031362" duration="284000" />
+      <workItem from="1731063174752" duration="8144000" />
     </task>
     <servers />
   </component>

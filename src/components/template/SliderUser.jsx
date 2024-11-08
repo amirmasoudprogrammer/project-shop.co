@@ -45,9 +45,15 @@ function SliderUser(props) {
                                 spaceBetween: 20,
                             },
                             640: {
-                                slidesPerView: 2.8,
+                                slidesPerView: 1,
                                 spaceBetween: 20,
                             },
+                            1024:{
+                                slidesPerView: 2.8,
+                                spaceBetween: 20,
+                            }
+
+
 
                         }}
                         grabCursor={true}

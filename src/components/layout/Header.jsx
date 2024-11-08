@@ -71,11 +71,10 @@ function Header(props) {
                         <ul className={show ? styles.responsive_nav : null}>
                             <li>
                                 <span>Shop </span>
-                                <Image src={svg4} alt="icon" width={11} height={6} priority={true}/>
                             </li>
-                            <li><Link href="">On Sale</Link></li>
-                            <li><Link href="">New Arrivals</Link></li>
-                            <li><Link href="">Brands</Link></li>
+                            <li><Link href="/">On Sale</Link></li>
+                            <li><Link href="/">New Arrivals</Link></li>
+                            <li><Link href="/">Brands</Link></li>
                             <button
                                 className={styles.Nav_close_btn}
                                 onClick={showNavbar}>
@@ -88,10 +87,11 @@ function Header(props) {
                         <Image src={svg5} alt="icon" width={27} height={27} priority={true}/>
                         <input type="text" placeholder="Search for products..."/>
                     </div>
-                    <div className={styles.SearsResponsive}>
-                        <Image src={svg7} alt="icon" width={24} height={24} priority={true}/>
-                    </div>
+
                     <div className={styles.itemNavbar}>
+                        <div className={styles.SearsResponsive}>
+                            <Image src={svg7} alt="icon" width={24} height={24} priority={true}/>
+                        </div>
                         <div className={styles.ShopCard}>
                             <Link href="/shoppingCart"> <Image src={svg2} alt="icon" width={24} height={24}
                                                                priority={true}/></Link>
@@ -106,12 +106,12 @@ function Header(props) {
                                         <ul>
                                             <li>
                                                 <Link href="/dashboard">
-                                                    حساب کاربری
+                                                    User account
                                                 </Link>
                                                 <MdOutlineAccountBox/>
                                             </li>
                                             <li onClick={signOut}>
-                                                خروج
+                                                Sign out
                                                 <FaSignInAlt/>
                                             </li>
                                         </ul>

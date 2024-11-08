@@ -22,7 +22,7 @@ function SigninPage(props) {
         if (res.error){
             toast.error(res.error)
         }else {
-            toast.success("ورود باموفقیت.")
+            toast.success("Login successfully...")
             router.push("/")
         }
 
@@ -30,7 +30,7 @@ function SigninPage(props) {
     return (
         <div className={styles.form}>
 
-            <h4>Registration</h4>
+            <h4>login </h4>
             <form>
                 <label>emali</label>
                 <input

@@ -134,7 +134,7 @@ function CategoriesPage({data}) {
                             </div>
                             <div className={styles.Size}>
                                 {size.map((i, index) => (
-                                    <div key={index} onClick={() => handlerSelectSize(i)}
+                                    <div key={index} onClick={() => handleSizeSelect(i)}
                                          className={selectedSize === i ? styles.SelectColor : styles.Select}>
                                         <span>{i}</span>
                                     </div>))}

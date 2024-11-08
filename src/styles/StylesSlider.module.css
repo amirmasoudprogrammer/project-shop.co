@@ -50,21 +50,26 @@
 }
 
 
-@media (max-width: 480px) {
+@media (min-device-width: 320px) and (max-device-width: 490px) {
 
     .PageSlider .TitleAndButton {
-        width: 276px;
+        width: 350px;
         height: 88px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: 20px;
     }
 
     .PageSlider .TitleAndButton span {
-        font-size: 23px;
+        font-size: 15px;
         font-weight: 700;
         line-height: 27px;
         text-align: left;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        justify-content: flex-start;
 
     }
 

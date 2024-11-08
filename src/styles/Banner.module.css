@@ -105,7 +105,124 @@
     height: 122px;
 }
 
-@media (max-width: 480px) {
+
+/* تنظیمات برای تبلت‌ها */
+@media (min-device-width: 770px) and (max-device-width: 1024px) {
+    /* استایل‌های مخصوص دستگاه‌هایی با سایز 768x1024 */
+    .Container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: rgba(242, 240, 241, 1);
+    }
+    .Container .img{
+        width: 500px;
+
+    }
+    .Container .img img {
+        width: 322px;
+        height: 448px;
+    }
+
+    .Container .TextBanner {
+        position: inherit;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 8px auto;
+        padding-top: 20px;
+
+    }
+
+
+    .Container .TextBanner h2 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 34px;
+        width: auto;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Container .TextBanner p {
+        width: auto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        height: auto;
+    }
+
+    .Container .TextBanner a {
+        display: flex;
+        width: 321px;
+        height: 52px;
+        padding: 16px 54px 16px 54px;
+        border-radius: 62px;
+        margin-top: 30px;
+    }
+
+    .Container .TextBanner .Nambers {
+        margin-top: 20px;
+        width: 700px;
+        height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Container .TextBanner .Nambers .ItemCardNamber {
+        width: 115px;
+        padding: 0;
+        margin-left: 0;
+        align-items: center;
+        height: 82px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .Container .TextBanner .Nambers .ItemCardNamber .NamberItem span {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32.4px;
+        text-align: left;
+
+
+    }
+
+    .Container .TextBanner .Nambers .ItemCardNamber .textItems {
+        width: auto;
+    }
+
+    .Container .TextBanner .Nambers .ItemCardNamber .textItems span {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+
+    }
+
+    .LogoBanner {
+        background-color: black;
+        width: 100%;
+        height: 200px;
+    }
+
+    .LogoBanner img {
+        width: 80px;
+        height: 100px;
+        margin-top: 0;
+    }
+}
+
+/* تنظیمات برای موبایل‌ها */
+@media (min-device-width: 320px) and (max-device-width: 490px) {
+    /* استایل‌ها برای حالت افقی 480x320 */
     .Container {
         display: flex;
         flex-direction: column;
@@ -209,5 +326,4 @@
         height: 100px;
         margin-top: 0;
     }
-
 }
